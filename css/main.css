@@ -45,6 +45,7 @@ section h2 {
 section p {
   margin: 0;
 }
+
 .section-icon {
   width: 50%;
 }
@@ -60,17 +61,22 @@ section p {
     line-height: 1.3;
   }
 
-  .section-icon, .section-letter {
+  .section-icon {
     padding: 0 1rem;
   }
+
+  .section-letter {
+    padding: 0 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
-}
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   .section-icon {
     order: 4;
