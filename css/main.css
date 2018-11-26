@@ -54,6 +54,46 @@ section {
   }
 
   .section-icon, .section-letter {
-    padding: 1rem;
+    padding: 0 1rem;
   }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+  font-size: 110%;
+  line-height: 1.4;
+}
+
+  .section-icon {
+    order: 4;
+  }
+
+  .section-icon, .section-letter {
+    width: 33.3333%;
+  }
+
+  .wrapper {
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
