@@ -38,11 +38,18 @@ section {
   width: 100%;
 }
 
-.section-body h2, p {
+section h2 {
   margin: 0;
 }
 
-.section-icon, .section-letter {
+section p {
+  margin: 0;
+}
+.section-icon {
+  width: 50%;
+}
+
+.section-letter {
   width: 50%;
 }
 
